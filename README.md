@@ -4,6 +4,9 @@
 ## simple powershell script to take a model folder and replace imported models into ollama with symlinks to the model folder.
 
 this eliminates the issue of storing 2 copies of models when using ollama along side other options 
+
+## Updated version now includes cache feature to prevent rehashing models on subsequent runs 
+
 <br>
 <br> WARNING: This obviously means ollama will now rely upon the copy within the model folder and the copy ollama has will be deleted so ensure you do not move or delete the gguf model in the model folder for the symlink to keep functioning. 
 <br>
